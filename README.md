@@ -15,16 +15,14 @@ is slow and fragile, and it means handing them your card details.
 
 ## How it works
 
-1. **You say:** "Buy the cheapest Acana dog food 11.4 kg, deliver to parcel locker WAW123M
-   by Thursday."
-2. **The agent asks participating shops** for signed offers: price including delivery to
-   that exact locker, with a delivery date.
-3. **The shop reserves a locker slot** with the carrier, so the date is a commitment rather
-   than an estimate.
-4. **You get one confirmation** showing the shop, product and exact amount, and enter
-   your PIN.
-5. **The order is placed and paid.** It lands in the shop's own system already paid, and
-   the parcel goes to the locker.
+1. **You say:** "Buy the cheapest Acana dog food 11.4 kg, deliver to parcel locker WAW123M."
+   What matters is the product and the delivery type and point. A date is optional.
+2. **The agent asks participating shops** for signed offers, each with the delivery options
+   the shop offers at checkout, and compares total prices including parcel-locker delivery.
+3. **You get one confirmation** showing the shop, the exact product and the exact amount,
+   and enter your PIN.
+4. **The order is placed and paid.** It lands in the shop's own system already paid.
+5. **The shop ships as usual** with its own carrier, and the parcel goes to your locker.
 
 ## Principles
 
@@ -40,12 +38,14 @@ is slow and fragile, and it means handing them your card details.
 ## What IOP adds to existing standards
 
 Existing agentic-commerce standards let an agent buy in **one shop it already knows**.
-IOP adds three things:
+IOP adds two things:
 
-- **Cross-shop offers:** one query to many shops, compared on total price including delivery
-- **Delivery promises:** a guaranteed date backed by a carrier reservation, not an estimate
-- **Carriers as first-class participants:** parcel lockers and pickup points, not just a
-  shipping address
+- **Cross-shop offers:** one query to many shops, matched by product name, description and
+  attributes (EAN when available), compared on total price including the chosen delivery
+- **One wallet for many independent shops:** one saved card and one PIN confirmation,
+  outside closed ecosystems
+
+Delivery options, including parcel lockers, reuse UCP's existing fulfillment extension.
 
 ## Status
 
